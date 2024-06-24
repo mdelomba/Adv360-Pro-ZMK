@@ -174,8 +174,8 @@
         dvorak {
             bindings = <
 &kp GRAVE  &kp N1         &kp N2        &kp N3    &kp N4     &kp N5  &tog 3                                                       &mo 5      &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp EQUAL
-&kp TAB    &kp SQT        &kp COMMA     &kp DOT   &kp P      &kp Y   &none                                                        &none      &kp F   &kp G     &kp C         &kp R     &kp L     &kp FSLH
-&kp ESC    &kp A          &kp O         &kp E     &kp U      &kp I   &none     &kp LCTRL  &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &none      &kp D   &kp H     &kp T         &kp N     &kp S     &kp MINUS
+&kp TAB    &kp SQT        &kp COMMA     &kp DOT   &kp P      &kp Y   &to 1                                                        &none      &kp F   &kp G     &kp C         &kp R     &kp L     &kp FSLH
+&kp ESC    &kp A          &kp O         &kp E     &kp U      &kp I   &tog 2    &kp LCTRL  &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &none      &kp D   &kp H     &kp T         &kp N     &kp S     &kp MINUS
 &kp LSHFT  &kp SEMI       &kp Q         &kp J     &kp K      &kp X                        &kp HOME      &kp PG_UP                            &kp B   &kp M     &kp W         &kp V     &kp Z     &kp RSHFT
 &mo 4      &kp BACKSLASH  &kp LEFT_WIN  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN      &kp ENTER  &kp SPACE          &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 4
             >;
@@ -184,7 +184,7 @@
         programmer {
             bindings = <
 &ampersand_percent  &left_bracket_N7  &left_brace_N5  &right_brace_N3  &left_parenthesis_N1  &equal_N9  &trans                                      &trans  &asterisk_N0  &right_parenthesis_N2  &plus_N4  &right_bracket_N6  &exclamation_N8  &hash_grave
-&trans              &trans            &trans          &trans           &trans                &trans     &trans                                      &trans  &trans        &trans                 &trans    &trans             &trans           &trans
+&trans              &trans            &trans          &trans           &trans                &trans     &to 0                                       &trans  &trans        &trans                 &trans    &trans             &trans           &trans
 &trans              &trans            &trans          &trans           &trans                &trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans        &trans                 &trans    &trans             &trans           &trans
 &trans              &trans            &trans          &trans           &trans                &trans                     &trans      &trans                  &trans        &trans                 &trans    &trans             &trans           &trans
 &trans              &dollar_tilde     &trans          &trans           &trans                           &trans  &trans  &trans      &trans  &trans  &trans                &trans                 &trans    &back_slash_pipe   &at_caret        &trans
@@ -195,7 +195,7 @@
             bindings = <
 &kp EQUAL  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5  &trans                                      &trans  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
 &trans     &kp Q      &kp W   &kp E   &kp R   &kp T   &none                                       &none   &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&trans     &kp A      &kp S   &kp D   &kp F   &kp G   &none   &trans  &trans      &trans  &trans  &none   &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&trans     &kp A      &kp S   &kp D   &kp F   &kp G   &trans  &trans  &trans      &trans  &trans  &none   &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
 &trans     &kp Z      &kp X   &kp C   &kp V   &kp B                   &trans      &trans                  &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &trans     &kp GRAVE  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans     &kp LBKT  &kp RBKT  &trans
             >;
