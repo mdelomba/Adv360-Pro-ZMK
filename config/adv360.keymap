@@ -194,7 +194,7 @@
         lkp_n2: lkp_n2 {
             compatible = "zmk,behavior-mod-morph";
             label = "left_bracket_n2";
-            bindings = <&kp PLUS>, <&kp KP_N2>;
+            bindings = <&kp LEFT_BRACKET>, <&kp KP_N2>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
