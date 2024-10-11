@@ -184,9 +184,9 @@
         programmer {
             bindings = <
 &ampersand_percent  &left_bracket_N7  &left_brace_N5  &right_brace_N3  &left_parenthesis_N1  &equal_N9  &trans                                      &trans  &asterisk_N0  &right_parenthesis_N2  &plus_N4  &right_bracket_N6  &exclamation_N8  &hash_grave
-&trans              &trans            &trans          &trans           &trans                &trans     &to 0                                       &trans  &trans        &trans                 &trans    &trans             &trans           &trans
+&trans              &kp SEMI          &trans          &trans           &trans                &trans     &to 0                                       &trans  &trans        &trans                 &trans    &trans             &trans           &trans
 &trans              &trans            &trans          &trans           &trans                &trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans        &trans                 &trans    &trans             &trans           &trans
-&trans              &trans            &trans          &trans           &trans                &trans                     &trans      &trans                  &trans        &trans                 &trans    &trans             &trans           &trans
+&trans              &kp SQT           &trans          &trans           &trans                &trans                     &trans      &trans                  &trans        &trans                 &trans    &trans             &trans           &trans
 &trans              &dollar_tilde     &trans          &trans           &trans                           &trans  &trans  &trans      &trans  &trans  &trans                &trans                 &trans    &back_slash_pipe   &at_caret        &trans
             >;
         };
