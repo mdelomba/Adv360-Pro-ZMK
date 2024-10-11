@@ -337,11 +337,11 @@
 
         primeagen {
             bindings = <
-&ppipe  &pkp_n1  &lkp_n2  &lkp_n3  &lkp_n4  &akp_n5  &trans                                              &trans  &ekp_n6  &rkp_n7  &rkp_n8  &rkp_n9   &asterisk_N0  &eprcnt
-&trans  &trans   &trans   &trans   &trans   &trans   &to 0                                               &trans  &trans   &trans   &trans   &trans    &trans        &bhash
-&trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans          &trans      &trans  &trans  &trans  &trans   &trans   &trans   &trans    &trans        &trans
-&trans  &trans   &trans   &trans   &trans   &trans                           &trans      &trans                  &trans   &trans   &trans   &trans    &trans        &trans
-&trans  &dgrave  &ggrave  &trans   &trans            &trans  &kp LEFT_SHIFT  &trans      &trans  &trans  &trans           &trans   &trans   &kp FSLH  &at_caret     &trans
+&ppipe  &pkp_n1  &lkp_n2  &lkp_n3  &lkp_n4  &akp_n5  &trans                                              &trans  &ekp_n6  &rkp_n7  &rkp_n8  &rkp_n9   &skp_n0    &eprcnt
+&trans  &trans   &trans   &trans   &trans   &trans   &to 0                                               &trans  &trans   &trans   &trans   &trans    &trans     &bhash
+&trans  &trans   &trans   &trans   &trans   &trans   &trans  &trans          &trans      &trans  &trans  &trans  &trans   &trans   &trans   &trans    &trans     &trans
+&trans  &trans   &trans   &trans   &trans   &trans                           &trans      &trans                  &trans   &trans   &trans   &trans    &trans     &trans
+&trans  &dgrave  &ggrave  &trans   &trans            &trans  &kp LEFT_SHIFT  &trans      &trans  &trans  &trans           &trans   &trans   &kp FSLH  &at_caret  &trans
             >;
         };
 
