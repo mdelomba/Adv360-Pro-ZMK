@@ -185,7 +185,7 @@
         pkp_n1: pkp_n1 {
             compatible = "zmk,behavior-mod-morph";
             label = "plus_n1";
-            bindings = <&kp PLUS>, <&kp KP_N1>;
+            bindings = <&kp PLUS>, <&kp N1>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -194,7 +194,7 @@
         lkp_n2: lkp_n2 {
             compatible = "zmk,behavior-mod-morph";
             label = "left_bracket_n2";
-            bindings = <&kp LEFT_BRACKET>, <&kp KP_N2>;
+            bindings = <&kp LEFT_BRACKET>, <&kp N2>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -203,7 +203,7 @@
         lkp_n3: lkp_n3 {
             compatible = "zmk,behavior-mod-morph";
             label = "left_brace_n3";
-            bindings = <&kp LEFT_BRACE>, <&kp KP_N3>;
+            bindings = <&kp LEFT_BRACE>, <&kp N3>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -212,7 +212,7 @@
         lkp_n4: lkp_n4 {
             compatible = "zmk,behavior-mod-morph";
             label = "left_paren_n4";
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp KP_N4>;
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp N4>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -221,7 +221,7 @@
         akp_n5: akp_n5 {
             compatible = "zmk,behavior-mod-morph";
             label = "ampersand_n5";
-            bindings = <&kp AMPERSAND>, <&kp KP_N5>;
+            bindings = <&kp AMPERSAND>, <&kp N5>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -230,7 +230,7 @@
         ekp_n6: ekp_n6 {
             compatible = "zmk,behavior-mod-morph";
             label = "equal_n6";
-            bindings = <&kp EQUAL>, <&kp KP_N6>;
+            bindings = <&kp EQUAL>, <&kp N6>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -239,7 +239,7 @@
         rkp_n7: rkp_n7 {
             compatible = "zmk,behavior-mod-morph";
             label = "right_paren_n7";
-            bindings = <&kp RIGHT_PARENTHESIS>, <&kp KP_N7>;
+            bindings = <&kp RIGHT_PARENTHESIS>, <&kp N7>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -248,7 +248,7 @@
         rkp_n8: rkp_n8 {
             compatible = "zmk,behavior-mod-morph";
             label = "right_brace_n8";
-            bindings = <&kp RIGHT_BRACE>, <&kp KP_N8>;
+            bindings = <&kp RIGHT_BRACE>, <&kp N8>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -257,7 +257,7 @@
         rkp_n9: rkp_n9 {
             compatible = "zmk,behavior-mod-morph";
             label = "right_bracket_n9";
-            bindings = <&kp RIGHT_BRACKET>, <&kp KP_N9>;
+            bindings = <&kp RIGHT_BRACKET>, <&kp N9>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -266,7 +266,7 @@
         skp_n0: skp_n0 {
             compatible = "zmk,behavior-mod-morph";
             label = "star_n0";
-            bindings = <&kp ASTERISK>, <&kp KP_N0>;
+            bindings = <&kp ASTERISK>, <&kp N0>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
