@@ -281,10 +281,10 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        dgrave: dgrave {
+        dtilde: dtilde {
             compatible = "zmk,behavior-mod-morph";
-            label = "dllr_grave";
-            bindings = <&kp DOLLAR>, <&kp GRAVE>;
+            label = "dllr_tilde";
+            bindings = <&kp DOLLAR>, <&kp TILDE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -360,7 +360,7 @@
 &trans  &kp SEMI  &trans   &trans   &trans   &trans   &to 0                                                 &trans  &trans   &trans   &trans   &trans    &trans     &bhash
 &trans  &trans    &trans   &trans   &trans   &trans   &trans  &trans          &trans      &kp LGUI  &trans  &trans  &trans   &trans   &trans   &trans    &trans     &trans
 &trans  &kp APOS  &trans   &trans   &trans   &trans                           &trans      &trans                    &trans   &trans   &trans   &trans    &trans     &trans
-&trans  &dgrave   &ggrave  &trans   &trans            &bdel   &kp LEFT_SHIFT  &trans      &trans    &trans  &trans           &trans   &trans   &kp FSLH  &at_caret  &trans
+&trans  &dtilde   &ggrave  &trans   &trans            &bdel   &kp LEFT_SHIFT  &trans      &trans    &trans  &trans           &trans   &trans   &kp FSLH  &at_caret  &trans
             >;
         };
 
