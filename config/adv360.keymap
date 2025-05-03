@@ -326,31 +326,31 @@
 
         dvorak {
             bindings = <
-&kp GRAVE  &kp N1          &kp N2          &kp N3            &kp N4              &kp N5  &tog 4                                                               &mo 6       &kp N6  &kp N7               &kp N8             &kp N9           &kp N0           &kp EQUAL
-&kp TAB    &kp SQT         &kp COMMA       &kp DOT           &kp P               &kp Y   &to 1                                                                &bt BT_PRV  &kp F   &kp G                &kp C              &kp R            &kp L            &kp FSLH
-&kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LEFT_CONTROL U  &kp I   &tog 3  &kp LCTRL       &kp LALT      &kp LEFT_WIN        &kp RCTRL  &bt BT_NXT  &kp D   &hm RIGHT_CONTROL H  &hm RIGHT_SHIFT T  &hm RIGHT_ALT N  &hm RIGHT_GUI S  &kp MINUS
-&kp LSHFT  &kp SEMI        &kp Q           &kp J             &kp K               &kp X                           &kp HOME      &kp LC(LS(ESCAPE))                         &kp B   &kp M                &kp W              &kp V            &kp Z            &kp RSHFT
-&mo 5      &kp BACKSLASH   &kp LEFT_WIN    &kp LEFT          &kp RIGHT                   &bdel   &kp LEFT_SHIFT  &kp END       &kp LC(LA(DELETE))  &kp ENTER  &kp SPACE           &kp DOWN             &kp UP_ARROW       &kp LBKT         &kp RBKT         &mo 5
+&kp GRAVE  &kp N1          &kp N2          &kp N3            &kp N4              &kp N5  &tog 4                                                             &mo 6       &kp N6  &kp N7               &kp N8             &kp N9           &kp N0           &kp EQUAL
+&kp TAB    &kp SQT         &kp COMMA       &kp DOT           &kp P               &kp Y   &to 1                                                              &bt BT_PRV  &kp F   &kp G                &kp C              &kp R            &kp L            &kp FSLH
+&kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LEFT_CONTROL U  &kp I   &tog 3         &kp LCTRL   &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &bt BT_NXT  &kp D   &hm RIGHT_CONTROL H  &hm RIGHT_SHIFT T  &hm RIGHT_ALT N  &hm RIGHT_GUI S  &kp MINUS
+&kp LSHFT  &kp SEMI        &kp Q           &kp J             &kp K               &kp X                              &kp HOME      &kp PG_UP                             &kp B   &kp M                &kp W              &kp V            &kp Z            &kp RSHFT
+&mo 5      &kp BACKSLASH   &kp LEFT_WIN    &kp LEFT          &kp RIGHT                   &kp BACKSPACE  &kp DELETE  &kp END       &kp PG_DN      &kp ENTER  &kp SPACE           &kp DOWN             &kp UP_ARROW       &kp LBKT         &kp RBKT         &mo 5
             >;
         };
 
         programmer {
             bindings = <
-&ampersand_percent  &left_bracket_N7  &left_brace_N5  &right_brace_N3  &left_parenthesis_N1  &equal_N9  &trans                                              &trans  &asterisk_N0  &right_parenthesis_N2  &plus_N4  &right_bracket_N6  &exclamation_N8  &hash_grave
-&trans              &kp SEMI          &trans          &trans           &trans                &trans     &to 2                                               &trans  &trans        &trans                 &trans    &trans             &trans           &trans
-&trans              &trans            &trans          &trans           &trans                &trans     &trans  &trans          &trans      &trans  &trans  &trans  &trans        &trans                 &trans    &trans             &trans           &trans
-&trans              &kp SQT           &trans          &trans           &trans                &trans                             &trans      &trans                  &trans        &trans                 &trans    &trans             &trans           &trans
-&trans              &dollar_tilde     &trans          &trans           &trans                           &bdel   &kp LEFT_SHIFT  &trans      &trans  &trans  &trans                &trans                 &trans    &back_slash_pipe   &at_caret        &trans
+&ampersand_percent  &left_bracket_N7  &left_brace_N5  &right_brace_N3  &left_parenthesis_N1  &equal_N9  &trans                                      &trans  &asterisk_N0  &right_parenthesis_N2  &plus_N4  &right_bracket_N6  &exclamation_N8  &hash_grave
+&trans              &kp SEMI          &trans          &trans           &trans                &trans     &to 2                                       &trans  &trans        &trans                 &trans    &trans             &trans           &trans
+&trans              &trans            &trans          &trans           &trans                &trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans        &trans                 &trans    &trans             &trans           &trans
+&trans              &kp SQT           &trans          &trans           &trans                &trans                     &trans      &trans                  &trans        &trans                 &trans    &trans             &trans           &trans
+&trans              &dollar_tilde     &trans          &trans           &trans                           &trans  &trans  &trans      &trans  &trans  &trans                &trans                 &trans    &back_slash_pipe   &at_caret        &trans
             >;
         };
 
         primeagen {
             bindings = <
-&ppipe  &pkp_n1   &lkp_n2  &lkp_n3  &lkp_n4  &akp_n5  &trans                                                &trans  &ekp_n6  &rkp_n7  &rkp_n8  &rkp_n9   &skp_n0    &eprcnt
-&trans  &kp SEMI  &trans   &trans   &trans   &trans   &to 0                                                 &trans  &trans   &trans   &trans   &trans    &trans     &bhash
-&trans  &trans    &trans   &trans   &trans   &trans   &trans  &trans          &trans      &kp LGUI  &trans  &trans  &trans   &trans   &trans   &trans    &trans     &trans
-&trans  &kp APOS  &trans   &trans   &trans   &trans                           &trans      &trans                    &trans   &trans   &trans   &trans    &trans     &trans
-&trans  &dtilde   &ggrave  &trans   &trans            &bdel   &kp LEFT_SHIFT  &trans      &trans    &trans  &trans           &trans   &trans   &kp FSLH  &at_caret  &trans
+&dtilde  &pkp_n1   &lkp_n2  &lkp_n3  &lkp_n4  &akp_n5  &trans                                      &trans  &ekp_n6  &rkp_n7  &rkp_n8  &rkp_n9    &skp_n0  &eprcnt
+&trans   &kp SEMI  &trans   &trans   &trans   &trans   &to 0                                       &trans  &trans   &trans   &trans   &trans     &trans   &kp SLASH
+&trans   &trans    &trans   &trans   &trans   &trans   &trans  &trans  &trans      &trans  &trans  &trans  &trans   &trans   &trans   &trans     &trans   &trans
+&trans   &kp APOS  &trans   &trans   &trans   &trans                   &trans      &trans                  &trans   &trans   &trans   &trans     &trans   &trans
+&trans   &ppipe    &ggrave  &trans   &trans            &trans  &trans  &trans      &trans  &trans  &trans           &trans   &trans   &at_caret  &bhash   &trans
             >;
         };
 
