@@ -23,7 +23,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             quick_tap_ms = <175>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -350,11 +350,11 @@
 
         dvorak {
             bindings = <
-&kp GRAVE  &kp N1          &kp N2           &kp N3             &kp N4               &kp N5  &tog 4                                                             &mo 6       &kp N6  &kp N7                &kp N8              &kp N9            &kp N0           &kp EQUAL
-&kp TAB    &kp SQT         &kp COMMA        &kp DOT            &kp P                &kp Y   &to 1                                                              &bt BT_PRV  &kp F   &kp G                 &kp C               &kp R             &kp L            &kp FSLH
-&kp ESC    &hm LEFT_GUI A  &lph LEFT_ALT O  &lph LEFT_SHIFT E  &lph LEFT_CONTROL U  &kp I   &tog 3         &kp LCTRL   &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &bt BT_NXT  &kp D   &rph RIGHT_CONTROL H  &rph RIGHT_SHIFT T  &rph RIGHT_ALT N  &hm RIGHT_GUI S  &kp MINUS
-&kp LSHFT  &kp SEMI        &kp Q            &kp J              &kp K                &kp X                              &kp HOME      &kp PG_UP                             &kp B   &kp M                 &kp W               &kp V             &kp Z            &kp RSHFT
-&mo 5      &kp BACKSLASH   &kp LEFT_WIN     &kp LEFT           &kp RIGHT                    &kp BACKSPACE  &kp DELETE  &kp END       &kp PG_DN      &kp ENTER  &kp SPACE           &kp DOWN              &kp UP_ARROW        &kp LBKT          &kp RBKT         &mo 5
+&kp GRAVE  &kp N1          &kp N2          &kp N3            &kp N4              &kp N5  &tog 4                                                             &mo 6       &kp N6  &kp N7               &kp N8             &kp N9           &kp N0           &kp EQUAL
+&kp TAB    &kp SQT         &kp COMMA       &kp DOT           &kp P               &kp Y   &to 1                                                              &bt BT_PRV  &kp F   &kp G                &kp C              &kp R            &kp L            &kp FSLH
+&kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LEFT_CONTROL U  &kp I   &tog 3         &kp LCTRL   &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &bt BT_NXT  &kp D   &hm RIGHT_CONTROL H  &hm RIGHT_SHIFT T  &hm RIGHT_ALT N  &hm RIGHT_GUI S  &kp MINUS
+&kp LSHFT  &kp SEMI        &kp Q           &kp J             &kp K               &kp X                              &kp HOME      &kp PG_UP                             &kp B   &kp M                &kp W              &kp V            &kp Z            &kp RSHFT
+&mo 5      &kp BACKSLASH   &kp LEFT_WIN    &kp LEFT          &kp RIGHT                   &kp BACKSPACE  &kp DELETE  &kp END       &kp PG_DN      &kp ENTER  &kp SPACE           &kp DOWN             &kp UP_ARROW       &kp LBKT         &kp RBKT         &mo 5
             >;
         };
 
