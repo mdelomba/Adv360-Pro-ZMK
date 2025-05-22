@@ -326,7 +326,7 @@
             tapping-term-ms = <400>;
             quick-tap-ms = <200>;
             hold-trigger-key-positions = <1 2 3 4 5 15 16 17 18 19 29 30 31 32 33 47 48 49 50 51 61 62 0 63 64 35 36 52 65 66 67 6 20 34 14 28 46 60>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
         };
 
         lph: left_positionalhold {
@@ -338,7 +338,7 @@
             tapping-term-ms = <400>;
             quick-tap-ms = <200>;
             hold-trigger-key-positions = <8 9 10 11 12 22 23 24 25 26 40 41 42 43 44 54 55 56 57 58 13 74 73 72 71 27 45 7 21 39 37 38 53 68 69 70 59 75>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
         };
     };
 
