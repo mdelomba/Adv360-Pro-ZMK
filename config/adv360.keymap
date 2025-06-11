@@ -340,6 +340,16 @@
             hold-trigger-key-positions = <8 9 10 11 12 22 23 24 25 26 40 41 42 43 44 54 55 56 57 58 13 74 73 72 71 27 45 7 21 39 37 38 53 68 69 70 59 75>;
             flavor = "balanced";
         };
+
+        long_hm: long_hm {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LONG_HM";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick_tap_ms = <175>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     macros {
@@ -350,11 +360,11 @@
 
         dvorak {
             bindings = <
-&kp GRAVE  &kp N1          &kp N2          &kp N3            &kp N4              &kp N5  &tog 4                                                             &mo 6       &kp N6  &kp N7               &kp N8             &kp N9           &kp N0           &kp EQUAL
-&kp TAB    &kp SQT         &kp COMMA       &kp DOT           &kp P               &kp Y   &to 1                                                              &bt BT_PRV  &kp F   &kp G                &kp C              &kp R            &kp L            &kp FSLH
-&kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LEFT_CONTROL U  &kp I   &tog 3         &kp LCTRL   &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &bt BT_NXT  &kp D   &hm RIGHT_CONTROL H  &hm RIGHT_SHIFT T  &hm RIGHT_ALT N  &hm RIGHT_GUI S  &kp MINUS
-&kp LSHFT  &kp SEMI        &kp Q           &kp J             &kp K               &kp X                              &kp HOME      &kp PG_UP                             &kp B   &kp M                &kp W              &kp V            &kp Z            &kp RSHFT
-&mo 5      &kp BACKSLASH   &kp LEFT_WIN    &kp LEFT          &kp RIGHT                   &kp BACKSPACE  &kp DELETE  &kp END       &kp PG_DN      &kp ENTER  &kp SPACE           &kp DOWN             &kp UP_ARROW       &kp LBKT         &kp RBKT         &mo 5
+&kp GRAVE  &kp N1               &kp N2               &kp N3            &kp N4              &kp N5  &tog 4                                                             &mo 6       &kp N6  &kp N7               &kp N8             &kp N9                &kp N0                &kp EQUAL
+&kp TAB    &kp SQT              &kp COMMA            &kp DOT           &kp P               &kp Y   &to 1                                                              &bt BT_PRV  &kp F   &kp G                &kp C              &kp R                 &kp L                 &kp FSLH
+&kp ESC    &long_hm LEFT_GUI A  &long_hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LEFT_CONTROL U  &kp I   &tog 3         &kp LCTRL   &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &bt BT_NXT  &kp D   &hm RIGHT_CONTROL H  &hm RIGHT_SHIFT T  &long_hm RIGHT_ALT N  &long_hm RIGHT_GUI S  &kp MINUS
+&kp LSHFT  &kp SEMI             &kp Q                &kp J             &kp K               &kp X                              &kp HOME      &kp PG_UP                             &kp B   &kp M                &kp W              &kp V                 &kp Z                 &kp RSHFT
+&mo 5      &kp BACKSLASH        &kp LEFT_WIN         &kp LEFT          &kp RIGHT                   &kp BACKSPACE  &kp DELETE  &kp END       &kp PG_DN      &kp ENTER  &kp SPACE           &kp DOWN             &kp UP_ARROW       &kp LBKT              &kp RBKT              &mo 5
             >;
         };
 
