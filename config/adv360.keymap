@@ -360,11 +360,11 @@
 
         dvorak {
             bindings = <
-&kp GRAVE  &kp N1               &kp N2               &kp N3            &kp N4              &kp N5  &tog 4                                                             &mo 6       &kp N6  &kp N7               &kp N8             &kp N9                &kp N0                &kp EQUAL
-&kp TAB    &kp SQT              &kp COMMA            &kp DOT           &kp P               &kp Y   &to 1                                                              &bt BT_PRV  &kp F   &kp G                &kp C              &kp R                 &kp L                 &kp FSLH
-&kp ESC    &long_hm LEFT_GUI A  &long_hm LEFT_ALT O  &hm LEFT_SHIFT E  &hm LEFT_CONTROL U  &kp I   &tog 3         &kp LCTRL   &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &bt BT_NXT  &kp D   &hm RIGHT_CONTROL H  &hm RIGHT_SHIFT T  &long_hm RIGHT_ALT N  &long_hm RIGHT_GUI S  &kp MINUS
-&kp LSHFT  &kp SEMI             &kp Q                &kp J             &kp K               &kp X                              &kp HOME      &kp PG_UP                             &kp B   &kp M                &kp W              &kp V                 &kp Z                 &kp RSHFT
-&mo 5      &kp BACKSLASH        &kp LEFT_WIN         &kp LEFT          &kp RIGHT                   &kp BACKSPACE  &kp DELETE  &kp END       &kp PG_DN      &kp ENTER  &kp SPACE           &kp DOWN             &kp UP_ARROW       &kp LBKT              &kp RBKT              &mo 5
+&kp GRAVE  &kp N1         &kp N2        &kp N3    &kp N4     &kp N5  &tog 4                                                             &mo 6       &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp EQUAL
+&kp TAB    &kp SQT        &kp COMMA     &kp DOT   &kp P      &kp Y   &to 1                                                              &bt BT_PRV  &kp F   &kp G     &kp C         &kp R     &kp L     &kp FSLH
+&kp ESC    &kp A          &kp O         &kp E     &kp U      &kp I   &tog 3         &kp LCTRL   &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &bt BT_NXT  &kp D   &kp H     &kp T         &kp N     &kp S     &kp MINUS
+&kp LSHFT  &kp SEMI       &kp Q         &kp J     &kp K      &kp X                              &kp HOME      &kp PG_UP                             &kp B   &kp M     &kp W         &kp V     &kp Z     &kp RSHFT
+&mo 5      &kp BACKSLASH  &kp LEFT_WIN  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &kp DELETE  &kp END       &kp PG_DN      &kp ENTER  &kp SPACE           &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 5
             >;
         };
 
