@@ -370,21 +370,21 @@
 
         programmer {
             bindings = <
-&ampersand_percent  &left_bracket_N7  &left_brace_N5  &right_brace_N3  &left_parenthesis_N1  &equal_N9  &trans                                      &trans  &asterisk_N0  &right_parenthesis_N2  &plus_N4  &right_bracket_N6  &exclamation_N8  &hash_grave
-&trans              &kp SEMI          &trans          &trans           &trans                &trans     &to 2                                       &trans  &trans        &trans                 &trans    &trans             &trans           &trans
-&trans              &trans            &trans          &trans           &trans                &trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans        &trans                 &trans    &trans             &trans           &trans
-&trans              &kp SQT           &trans          &trans           &trans                &trans                     &trans      &trans                  &trans        &trans                 &trans    &trans             &trans           &trans
-&trans              &dollar_tilde     &trans          &trans           &trans                           &trans  &trans  &trans      &trans  &trans  &trans                &trans                 &trans    &back_slash_pipe   &at_caret        &trans
+&ampersand_percent  &left_bracket_N7  &left_brace_N5  &right_brace_N3  &left_parenthesis_N1  &equal_N9  &trans                                             &trans  &asterisk_N0  &right_parenthesis_N2  &plus_N4  &right_bracket_N6  &exclamation_N8  &hash_grave
+&trans              &kp SEMI          &trans          &trans           &trans                &trans     &to 2                                              &trans  &trans        &trans                 &trans    &trans             &trans           &trans
+&trans              &trans            &trans          &trans           &trans                &trans     &trans  &trans  &trans      &kp RIGHT_WIN  &trans  &trans  &trans        &trans                 &trans    &trans             &trans           &trans
+&trans              &kp SQT           &trans          &trans           &trans                &trans                     &trans      &trans                         &trans        &trans                 &trans    &trans             &trans           &trans
+&trans              &dollar_tilde     &trans          &trans           &trans                           &trans  &trans  &trans      &trans         &trans  &trans                &trans                 &trans    &back_slash_pipe   &at_caret        &trans
             >;
         };
 
         primeagen {
             bindings = <
-&dtilde  &pkp_n1   &lkp_n2  &lkp_n3  &lkp_n4  &akp_n5  &trans                                      &trans  &ekp_n6  &rkp_n7  &rkp_n8  &rkp_n9    &skp_n0  &eprcnt
-&trans   &kp SEMI  &trans   &trans   &trans   &trans   &to 0                                       &trans  &trans   &trans   &trans   &trans     &trans   &kp SLASH
-&trans   &trans    &trans   &trans   &trans   &trans   &trans  &trans  &trans      &trans  &trans  &trans  &trans   &trans   &trans   &trans     &trans   &trans
-&trans   &kp APOS  &trans   &trans   &trans   &trans                   &trans      &trans                  &trans   &trans   &trans   &trans     &trans   &trans
-&trans   &ppipe    &ggrave  &trans   &trans            &trans  &trans  &trans      &trans  &trans  &trans           &trans   &trans   &at_caret  &bhash   &trans
+&dtilde  &pkp_n1   &lkp_n2  &lkp_n3  &lkp_n4  &akp_n5  &trans                                             &trans  &ekp_n6  &rkp_n7  &rkp_n8  &rkp_n9    &skp_n0  &eprcnt
+&trans   &kp SEMI  &trans   &trans   &trans   &trans   &to 0                                              &trans  &trans   &trans   &trans   &trans     &trans   &kp SLASH
+&trans   &trans    &trans   &trans   &trans   &trans   &trans  &trans  &trans      &kp RIGHT_WIN  &trans  &trans  &trans   &trans   &trans   &trans     &trans   &trans
+&trans   &kp APOS  &trans   &trans   &trans   &trans                   &trans      &trans                         &trans   &trans   &trans   &trans     &trans   &trans
+&trans   &ppipe    &ggrave  &trans   &trans            &trans  &trans  &trans      &trans         &trans  &trans           &trans   &trans   &at_caret  &bhash   &trans
             >;
         };
 
